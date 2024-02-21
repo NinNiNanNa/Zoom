@@ -9,6 +9,31 @@ html(lang="en")
       header
         h1 Noom
       main
+        div#welcome
+          form
+            input(placeholder="회의 이름", required, type="text")
+            button 입장하기
+        div#content
+          div#flex
+            div#roomList-wrap
+              div
+                h2 입장 가능한 회의실
+                ul
+            div#call
+              div#myStream
+                div#myVideo-wrap
+                  video#myFace(autoplay,playsinline)
+                div#peerVideo-wrap
+                  video#peersFace(autoplay,playsinline)
+                div#button-wrap
+                  div#mute
+                    i.fa-solid.fa-microphone
+                  div#camera
+                    i.fa-solid.fa-video
+                  select#camears
+            div#chat
+              div
+                h2 Chat
       script(src="/socket.io/socket.io.js") 
       script(src="/public/js/app.js")
       script(src="https://kit.fontawesome.com/d2dc5e8519.js" crossorigin="anonymous")

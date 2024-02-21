@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-style: none;
+  list-style: none;
+}
+body {
+  background-color: #23212e;
+  margin: 0 auto;
+  padding: 0;
+}
+
+input {
+  outline: none;
+}
+
+header {
+  width: 100%;
+}
+header h1 {
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+}
+
+#welcome {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#welcome input {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+#welcome input:hover {
+  box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.3);
+}
+#welcome button {
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #9082f5;
+  border: 1px solid #9082f5;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#welcome button:hover {
+  color: #9082f5;
+  background-color: transparent;
+  border: 1px solid #9082f5;
+}
+
+#flex {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 73px);
+  justify-content: space-evenly;
+}
+#roomList-wrap {
+  width: 15%;
+  /* background-color: rgba(196, 255, 203, 0.243); */
+}
+#roomList-wrap div {
+  padding: 15px;
+}
+#roomList-wrap div h2 {
+  color: #fff;
+}
+#call {
+  width: 60%;
+  background-color: #414359;
+}
+#myStream {
+  position: relative;
+}
+#myVideo-wrap {
+  z-index: 99999;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+#myVideo-wrap video {
+  object-fit: fill;
+  width: 320px;
+  height: 200px;
+}
+#peerVideo-wrap {
+  width: 100%;
+}
+#peerVideo-wrap video {
+  object-fit: fill;
+  width: 100%;
+  height: calc(100vh - 73px);
+}
+#button-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2e2a42;
+}
+#button-wrap div i {
+  font-size: 25px;
+  color: #fff;
+}
+
+#chat {
+  width: 25%;
+  /* background-color: rgba(255, 228, 196, 0.243); */
+}
+#chat div {
+  padding: 15px;
+}
+#chat h2 {
+  color: #fff;
+}
