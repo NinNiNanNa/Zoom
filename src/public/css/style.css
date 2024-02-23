@@ -6,7 +6,8 @@
   list-style: none;
 }
 body {
-  background-color: #23212e;
+  /* background-color: #2c2a57; */
+  background: radial-gradient(circle, #1c1b3a, #28255a);
   margin: 0 auto;
   padding: 0;
 }
@@ -21,7 +22,7 @@ header {
 header h1 {
   padding: 15px 0;
   text-align: center;
-  color: #fff;
+  color: #d8dbf5;
 }
 
 #welcome {
@@ -65,17 +66,17 @@ header h1 {
 }
 #roomList-wrap {
   width: 15%;
-  /* background-color: rgba(196, 255, 203, 0.243); */
+  background: #100f1d;
 }
 #roomList-wrap div {
   padding: 15px;
 }
 #roomList-wrap div h2 {
-  color: #fff;
+  font-size: 20px;
+  color: #d8dbf5;
 }
 #call {
-  width: 60%;
-  background-color: #414359;
+  width: 65%;
 }
 #myStream {
   position: relative;
@@ -107,7 +108,7 @@ header h1 {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #2e2a42;
+  background-color: #1a193a;
 }
 #button-wrap div i {
   font-size: 25px;
@@ -115,12 +116,14 @@ header h1 {
 }
 
 #chat {
-  width: 25%;
-  /* background-color: rgba(255, 228, 196, 0.243); */
+  width: 20%;
+  background-color: #fff;
+  background: radial-gradient(circle, #4942af, #2a2950);
 }
 #chat div {
   padding: 15px;
 }
 #chat h2 {
-  color: #fff;
+  font-size: 20px;
+  color: #eeb2e6;
 }
