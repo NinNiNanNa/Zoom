@@ -107,6 +107,7 @@ const welcome = document.getElementById("welcome");
 const welcomeForm = welcome.querySelector("form");
 
 async function startMedia() {
+  const headerBg = document.querySelector("header");
   welcome.hidden = true;
   content.hidden = false;
   await getMedia();
